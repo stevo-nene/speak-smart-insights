@@ -1,16 +1,16 @@
 
 import Header from "@/components/Header";
-import Dashboard from "@/components/Dashboard";
+import AnalysisResults from "@/components/AnalysisResults";
 
-const Index = () => {
+const Analysis = () => {
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <Header />
       <main className="flex-1">
-        <Dashboard />
+        <AnalysisResults />
       </main>
     </div>
   );
 };
 
-export default Index;
+export default Analysis;
